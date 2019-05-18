@@ -43,8 +43,26 @@ particlesJS.load('particles-js', 'assets/particles.json', function() {
   console.log('callback - particles.js config loaded');
 });
 
-//ScrollReveal({ reset: true });
-//
-//ScrollReveal().reveal('.reveal', { delay: 300 });
-//ScrollReveal().reveal('.oferta-img');
-//ScrollReveal().reveal('.oferta-opis', { delay: 600 });
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    document.getElementById("myBtn").style.display = "block";
+  } else {
+    document.getElementById("myBtn").style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+
+
+ScrollReveal({ reset: true });
+
+ScrollReveal().reveal('.reveal', { delay: 300 });
+ScrollReveal().reveal('.oferta-img');
+ScrollReveal().reveal('.oferta-opis', { delay: 600 });

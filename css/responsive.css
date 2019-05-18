@@ -11,7 +11,7 @@
 }
 
 @media (max-width: 1600px) {
-        
+
     /* O NAS */
     #o-nas .o-nas-inner h2 {
         top: 72%;
@@ -53,9 +53,9 @@
     }
 
     #main-header .header-inner p {
-    font-size: 26px;
-    margin-top: -23px;
-}
+        font-size: 26px;
+        margin-top: -23px;
+    }
 }
 
 @media (max-width: 768px) {
@@ -69,6 +69,7 @@
     #main-nav {
         padding: 30px;
     }
+
     #main-nav .col {
         flex-direction: column;
     }
@@ -82,6 +83,7 @@
     #main-nav .logo a img {
         height: 60px;
     }
+
     #main-nav .main-nav-item a {
         font-size: 20px;
         margin-top: 20px;
@@ -92,10 +94,10 @@
         left: 60px;
         margin-top: -10px;
     }
-    
+
     #particles-js {
-    height: calc(100vh - 300px);
-}
+        height: calc(100vh - 300px);
+    }
 
     #main-header .header-inner {
         height: calc(100vh - 300px);
@@ -266,9 +268,9 @@
 
     /* MAIN-HEADER */
     #main-nav .logo a img {
-    height: 40px;
-}
-    
+        height: 40px;
+    }
+
     #main-header .header-inner h2 {
         font-size: 50.5px;
     }
@@ -281,17 +283,30 @@
     #portfolio .portfolio-items {
         padding: 80px 30px;
     }
+    
+    #oferta .oferta-img .text {
+        padding: 15px;
+        top: 0%;
+    }
+    
+    #oferta .oferta-img h3 {
+    font-size: 24px;
+}
+    
+    #oferta .oferta-img .cennik {
+        font-size: 16px;
+    }
 }
 
 
 @media (max-width: 320px) {
 
     /* MAIN-HEADER */
-    
+
     #main-nav .logo a img {
-    height: 35px;
-}
-    
+        height: 35px;
+    }
+
     #main-header .header-inner h2 {
         font-size: 36px;
     }
@@ -304,4 +319,6 @@
     #portfolio .portfolio-items {
         padding: 50px 30px;
     }
+
+    
 }
