@@ -43,8 +43,8 @@ particlesJS.load('particles-js', 'assets/particles.json', function() {
   console.log('callback - particles.js config loaded');
 });
 
-ScrollReveal({ reset: true });
-
-ScrollReveal().reveal('.reveal', { delay: 300 });
-ScrollReveal().reveal('.oferta-img');
-ScrollReveal().reveal('.oferta-opis', { delay: 600 });
+//ScrollReveal({ reset: true });
+//
+//ScrollReveal().reveal('.reveal', { delay: 300 });
+//ScrollReveal().reveal('.oferta-img');
+//ScrollReveal().reveal('.oferta-opis', { delay: 600 });

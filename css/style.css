@@ -142,9 +142,11 @@ ul {
     0% {
         transform: scale(1)
     }
+
     50% {
         transform: scale(1.1)
     }
+
     100% {
         transform: scale(1)
     }
@@ -355,6 +357,59 @@ ul {
     color: #414042;
 }
 
+#oferta .oferta-img {
+    position: relative;
+    transition: transform .7s;
+    transform-style: preserve-3d;
+}
+
+#oferta .oferta-img .image {
+        backface-visibility: hidden;
+}
+
+#oferta .oferta-img .image,
+#oferta .oferta-img .text {
+    transition: opacity 0.5s ease-in-out;
+
+}
+
+#oferta .oferta-img .text {
+    width: 100%;
+    height: 100%;
+    color: black;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    transform: rotateY( 180deg);
+    opacity: 0;
+}
+
+#oferta .oferta-img:hover {
+transform: rotateY( 180deg);
+    transition: transform 0.5s;}
+
+#oferta .oferta-img:hover .image {
+    opacity: .2;
+}
+
+#oferta .oferta-img:hover .text {
+    opacity: 1;
+}
+
+#oferta .oferta-img h3 {
+    font-size: 36px;
+}
+#oferta .oferta-img p {
+    font-size: 12px;
+}
+
+#oferta .oferta-img .cennik {
+    font-size: 32px;
+    padding: 15px 0;
+}
+
+
 /* KONTAKT */
 
 #contact {
@@ -421,7 +476,7 @@ ul {
 #contact .contact-box-mail {
     display: flex;
     align-items: center;
-    
+
 }
 
 #contact .contact-box-person {
@@ -429,7 +484,8 @@ ul {
     align-items: flex-start;
 }
 
-#contact .contact-mail, .contact-person {
+#contact .contact-mail,
+.contact-person {
     font-size: 26px;
     margin-left: 30px;
 }
