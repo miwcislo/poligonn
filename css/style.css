@@ -131,6 +131,7 @@ ul {
 .header .menu-btn:checked ~ .menu {
 	max-height: 340px;
 	margin: 15px 0;
+	transition: all 1s;
 }
 
 .header .menu-btn:checked ~ .menu-icon .navicon {
@@ -307,7 +308,7 @@ ul {
 
 #o-nas2 {
 	text-align: center;
-	padding: 160px;
+	padding: 160px 0;
 }
 
 #o-nas2 h3 {
