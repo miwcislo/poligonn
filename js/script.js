@@ -50,7 +50,7 @@ particlesJS.load('particles-js', 'assets/particles.json', function () {
 
 
 ScrollReveal({
-	reset: true
+	reset: false
 });
 
 ScrollReveal().reveal('.reveal', {

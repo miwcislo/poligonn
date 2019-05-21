@@ -89,7 +89,7 @@ ul {
 	cursor: pointer;
 	display: inline-block;
 	float: right;
-	padding: 19px 0px;
+	padding: 16px 0px;
 	position: relative;
 	user-select: none;
 }
@@ -307,7 +307,7 @@ ul {
 
 #o-nas2 {
 	text-align: center;
-	padding: 50px;
+	padding: 160px;
 }
 
 #o-nas2 h3 {

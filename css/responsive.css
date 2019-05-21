@@ -75,13 +75,6 @@
 		max-width: 50%;
 	}
 
-	/* MAIN-NAV */
-	/*
-    #main-nav {
-        padding: 30px;
-    }
-*/
-
 	#main-nav .col {
 		flex-direction: column;
 	}
@@ -130,7 +123,7 @@
 
 	/* O NAS 2 */
 	#o-nas2 {
-		padding: 30px;
+		padding: 60px 30px;
 	}
 
 	#o-nas2 h2,
@@ -147,7 +140,7 @@
 
 	#portfolio .portfolio-heading,
 	.oferta-heading {
-		margin-top: 64px;
+		margin-top: 40px;
 	}
 
 
