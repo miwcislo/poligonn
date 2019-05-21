@@ -1,65 +1,58 @@
 $(document).ready(function () {
-    $('.owl-carousel').owlCarousel({
-        loop: true,
-        item: 1,
-        autoplayTimeout: 5000,
-        autoplay: true,
-        animateOut: 'fadeOut',
-        responsive: {
-            0: {
-                items: 1
-            },
-            768: {
-                items: 1
-            },
-            1024: {
-                items: 2
-            },
-            1366: {
-                items: 4
-            },
-        }
-    })
+	$('.owl-carousel').owlCarousel({
+		loop: true,
+		item: 1,
+		autoplayTimeout: 5000,
+		autoplay: true,
+		animateOut: 'fadeOut',
+		responsive: {
+			0: {
+				items: 1
+			},
+			768: {
+				items: 1
+			},
+			1024: {
+				items: 2
+			},
+			1366: {
+				items: 4
+			},
+		}
+	})
 
-    $("a").on('click', function (event) {
-        if (this.hash !== "") {
-            event.preventDefault();
+	$("a").on('click', function (event) {
+		if (this.hash !== "") {
+			event.preventDefault();
 
-            var hash = this.hash;
+			var hash = this.hash;
 
-            $('html, body').animate({
-                scrollTop: $(hash).offset().top
-            }, 800, function () {
+			$('html, body').animate({
+				scrollTop: $(hash).offset().top
+			}, 800, function () {
 
-                window.location.hash = hash;
-            });
-        }
+				window.location.hash = hash;
+			});
+		}
+	});
+
+
+    $(".btn2").click(function(event){
+        $('html, body').animate({scrollTop: '+=471px'}, 800);
     });
 
+
 });
 
-particlesJS.load('particles-js', 'assets/particles.json', function() {
-  console.log('callback - particles.js config loaded');
+particlesJS.load('particles-js', 'assets/particles.json', function () {
+	console.log('callback - particles.js config loaded');
 });
 
-window.onscroll = function() {scrollFunction()};
 
-function scrollFunction() {
-  if (document.body.scrollTop > 54 || document.documentElement.scrollTop > 54) {
-    document.getElementById("myBtn").style.display = "block";
-  } else {
-    document.getElementById("myBtn").style.display = "none";
-  }
-}
+ScrollReveal({
+	reset: true
+});
 
-function topFunction() {
-  document.body.scrollTop = 0;
-  document.documentElement.scrollTop = 0;
-}
-
-
-ScrollReveal({ reset: true });
-
-ScrollReveal().reveal('.reveal', { delay: 300 });
-ScrollReveal().reveal('.oferta-img');
-ScrollReveal().reveal('.oferta-opis', { delay: 600 });
+ScrollReveal().reveal('.reveal', {
+	delay: 300
+});
