@@ -120,10 +120,10 @@
 	#main-header .header-inner .btn {
 		width: 50px;
 	}
-	
+
 	#o-nas .o-nas-inner h2 {
-	opacity: .2;
-}
+		opacity: .2;
+	}
 
 	/* O NAS 2 */
 	#o-nas2 {
@@ -254,6 +254,13 @@
 		width: 40px;
 		height: 40px;
 	}
+	
+	#oferta .oferta-img .text ul {
+		margin-left: 130px;
+		margin-top: 30px;
+		margin-bottom: 30px;
+	}
+}
 
 }
 
@@ -274,6 +281,10 @@
 	#main-header .header-inner p {
 		font-size: 15.5px;
 		margin-top: -11px;
+	}
+	
+	#oferta .oferta-img .text ul {
+		margin-left: 130px;
 	}
 }
 
@@ -310,6 +321,10 @@
 	#oferta .oferta-img .cennik {
 		font-size: 16px;
 	}
+	
+	#oferta .oferta-img .text ul {
+		margin-left: 70px;
+	}
 }
 
 
@@ -334,5 +349,32 @@
 		padding: 50px 30px;
 	}
 
+	#oferta .oferta-img .text ul {
+		margin-bottom: 5px;
+		margin-top: 5px;
+		margin-left: 5px;
+	}
+
+	#oferta .oferta-img .text ul li {
+		font-size: 12px;
+		margin: 3px 0;
+	}
+
+	.fa-square-full {
+		font-size: 6px;
+	}
+
+	.text-blue {
+		margin: 3px 0;
+		font-size: 12px;
+	}
+
+	#oferta .oferta-img h3 {
+		font-size: 16px;
+	}
+
+	#oferta .oferta-img p {
+		font-size: 12px;
+	}
 
 }

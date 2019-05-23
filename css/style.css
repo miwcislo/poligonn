@@ -502,6 +502,45 @@ ul {
 	justify-content: center;
 }
 
+#oferta .oferta-img .text ul {
+	list-style-type: none;
+	text-align: left;
+	margin-bottom: 50px;
+	margin-top: 50px;
+	margin-left: 140px;
+}
+
+#oferta .oferta-img .text ul li {
+	font-size: 16px;
+	margin: 10px 0;
+	display: flex;
+	align-items: center;
+}
+
+.fa-square-full {
+	color: #0094d2;
+	transform: rotate(-45deg);
+	font-size: 8px;
+    margin-right: 10px;
+}
+
+.text-blue {
+	font-weight: 700;
+	color: #0094d2;
+	display: block;
+	margin: 10px 0;
+	font-size: 24px;
+}
+
+#oferta .oferta-img h3 {
+	font-size: 30px;
+}
+
+#oferta .oferta-img p {
+	font-size: 16px;
+	text-align: center;
+}
+
 #oferta .oferta-img:hover {
 	transform: rotateY(180deg);
 	transition: transform 0.5s;
@@ -514,15 +553,6 @@ ul {
 #oferta .oferta-img:hover .text {
 	opacity: 1;
 }
-
-#oferta .oferta-img h3 {
-	font-size: 36px;
-}
-
-#oferta .oferta-img p {
-	font-size: 12px;
-}
-
 
 #oferta .oferta-img .cennik {
 	font-size: 32px;
