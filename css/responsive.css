@@ -297,10 +297,33 @@
 		height: 40px;
 	}
 
+	#oferta .oferta-img h3 {
+		font-size: 4.5vw;
+	}
+
 	#oferta .oferta-img .text ul {
-		margin-left: 130px;
-		margin-top: 30px;
-		margin-bottom: 30px;
+		margin-bottom: 2vw;
+		margin-top: 2vw;
+		margin-left: 12vw;
+	}
+
+	#oferta .oferta-img .text ul li {
+		font-size: 3.6vw;
+		margin: 4px 0;
+	}
+
+	.fa-square-full {
+		font-size: 1.5vw;
+	}
+
+	.text-blue {
+		margin: 3px 0;
+		font-size: 3.6vw;
+	}
+
+
+	#oferta .oferta-img p {
+		font-size: 3.6vw;
 	}
 }
 
@@ -325,9 +348,11 @@
 		margin-top: -11px;
 	}
 
+/*
 	#oferta .oferta-img .text ul {
 		margin-left: 130px;
 	}
+*/
 }
 
 
@@ -356,12 +381,9 @@
 		top: 0%;
 	}
 
+/*
 	#oferta .oferta-img h3 {
 		font-size: 24px;
-	}
-
-	#oferta .oferta-img .cennik {
-		font-size: 16px;
 	}
 
 	#oferta .oferta-img .text ul {
@@ -385,6 +407,7 @@
 		margin: 3px 0;
 		font-size: 16px;
 	}
+*/
 }
 
 
@@ -408,33 +431,36 @@
 	#portfolio .portfolio-items {
 		padding: 50px 30px;
 	}
+	
+/*
+	#oferta .oferta-img h3 {
+		font-size: 4vw;
+	}
 
 	#oferta .oferta-img .text ul {
-		margin-bottom: 5px;
-		margin-top: 5px;
-		margin-left: 5px;
+		margin-bottom: 2vw;
+		margin-top: 2vw;
+		margin-left: 12vw;
 	}
 
 	#oferta .oferta-img .text ul li {
-		font-size: 12px;
+		font-size: 3vw;
 		margin: 3px 0;
 	}
 
 	.fa-square-full {
-		font-size: 6px;
+		font-size: 1.5vw;
 	}
 
 	.text-blue {
 		margin: 3px 0;
-		font-size: 12px;
+		font-size: 3vw;
 	}
 
-	#oferta .oferta-img h3 {
-		font-size: 16px;
-	}
 
 	#oferta .oferta-img p {
-		font-size: 12px;
+		font-size: 3vw;
 	}
+*/
 
 }
