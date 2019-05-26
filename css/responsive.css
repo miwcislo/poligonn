@@ -8,12 +8,49 @@
 		flex: 0 0 33.333%;
 		max-width: 33.333%;
 	}
+
+	.oferta-img img {
+		width: 100%;
+	}
+
+	.oferta-img .text {
+		padding: 0;
+	}
+
+	#oferta .oferta-img .text {
+		padding: 15px;
+	}
+
+	#oferta .oferta-img .text ul {
+		margin-left: 5vw;
+		margin-bottom: 8px;
+		margin-top: 8px;
+	}
+
+	#oferta .oferta-img .text ul li {
+		font-size: .9vw;
+		margin: 4px 0;
+	}
+	
+	.fa-square-full {
+    font-size: .4vw;
+    margin-right: 10px;
 }
 
-@media (min-width: 768px) {
-	.hide {
-		display: none;
+	#oferta .oferta-img h3 {
+		font-size: 1.5vw;
 	}
+
+	#oferta .oferta-img p {
+		font-size: 1.1vw;
+	}
+
+	.text-blue {
+		margin: 3px 0;
+		font-size: 1.1vw;
+		display: inline-block;
+	}
+
 }
 
 @media (max-width: 1600px) {
@@ -48,7 +85,7 @@
 	}
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1023px) {
 
 
 
@@ -56,13 +93,18 @@
 		width: 100px;
 	}
 
-	#main-header .header-inner h2 {
+	#main-header .header-inner h1 {
 		font-size: 90px;
 	}
 
 	#main-header .header-inner p {
 		font-size: 26px;
 		margin-top: -23px;
+	}
+
+	#oferta .oferta-inner-second {
+		margin-top: 50px;
+		margin-bottom: 50px;
 	}
 
 
@@ -96,7 +138,7 @@
 
 	/* MAIN-HEADER */
 	#main-header .header-text {
-		left: 60px;
+		left: 30px;
 		margin-top: -10px;
 	}
 
@@ -108,7 +150,7 @@
 		height: 100vh;
 	}
 
-	#main-header .header-inner h2 {
+	#main-header .header-inner h1 {
 		font-size: 72px;
 	}
 
@@ -254,7 +296,7 @@
 		width: 40px;
 		height: 40px;
 	}
-	
+
 	#oferta .oferta-img .text ul {
 		margin-left: 130px;
 		margin-top: 30px;
@@ -274,7 +316,7 @@
 		padding: 100px 30px;
 	}
 
-	#main-header .header-inner h2 {
+	#main-header .header-inner h1 {
 		font-size: 59px;
 	}
 
@@ -282,7 +324,7 @@
 		font-size: 15.5px;
 		margin-top: -11px;
 	}
-	
+
 	#oferta .oferta-img .text ul {
 		margin-left: 130px;
 	}
@@ -296,7 +338,7 @@
 		height: 40px;
 	}
 
-	#main-header .header-inner h2 {
+	#main-header .header-inner h1 {
 		font-size: 46px;
 	}
 
@@ -321,9 +363,27 @@
 	#oferta .oferta-img .cennik {
 		font-size: 16px;
 	}
-	
+
 	#oferta .oferta-img .text ul {
 		margin-left: 70px;
+	}
+
+	#oferta .oferta-img .text ul li {
+		font-size: 16px;
+		margin: 3px 0;
+	}
+
+	#oferta .oferta-img h3 {
+		font-size: 26px;
+	}
+
+	#oferta .oferta-img p {
+		font-size: 16px;
+	}
+
+	.text-blue {
+		margin: 3px 0;
+		font-size: 16px;
 	}
 }
 
@@ -336,7 +396,7 @@
 		height: 30px;
 	}
 
-	#main-header .header-inner h2 {
+	#main-header .header-inner h1 {
 		font-size: 36px;
 	}
 
